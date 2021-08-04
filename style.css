@@ -417,7 +417,7 @@ header{
     width: 60%;
     height: 30rem;
     display: flex;
-    box-shadow: 0 2rem 3rem rgba(255, 251, 251, 0.884);
+    box-shadow: 0 2rem 3rem rgba(231, 38, 135, 0.884);
 }
 
 .contato-left{
@@ -475,7 +475,6 @@ header{
 .field-label{
     position: absolute;
     left: 0;
-    top: 2rem;
     font-size: 1.2rem;
     font-family: var(--font-secundary);
     text-transform: uppercase;
