@@ -320,6 +320,7 @@ header{
 .projetos{
     display: flex;
     justify-content: space-evenly;
+    margin-block-end: 50px;
 }
 
 .card{
@@ -416,7 +417,7 @@ header{
     width: 60%;
     height: 30rem;
     display: flex;
-    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .5);
+    box-shadow: 0 2rem 3rem rgba(255, 251, 251, 0.884);
 }
 
 .contato-left{
