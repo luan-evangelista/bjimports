@@ -314,7 +314,7 @@ header{
 .conhecimentos-img-wrapper{
     grid-column: 7 / 11;
     grid-row: 2 / 6;
-    width: 100%;
+    width: 170%;
 }
 
 .conhecimentos-img-wrapper img{
@@ -620,4 +620,26 @@ footer{
     color: #fff;
     border-radius: .3rem;
     box-shadow: 0 0.1rem 0.6rem #00000009;
+}
+
+/*Tablets*/
+/*@media screen and (max-width: 760px) {
+    .home, .sessao-conhecimentos, .sessao-projetos {
+        width: 100%;
+        padding: 0;
+    }
+} */
+
+
+/*Celulares*/
+@media screen and (max-width: 600px) {
+    .home, .sessao-conhecimentos, .sessao-projetos {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .home, .sessao-conhecimentos, .sessao-projetos{
+        display: none;
+    }
 }
