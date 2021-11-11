@@ -622,24 +622,10 @@ footer{
     box-shadow: 0 0.1rem 0.6rem #00000009;
 }
 
-/*Tablets*/
-/*@media screen and (max-width: 760px) {
-    .home, .sessao-conhecimentos, .sessao-projetos {
-        width: 100%;
-        padding: 0;
-    }
-} */
+/* media queries */
 
-
-/*Celulares*/
-@media screen and (max-width: 600px) {
-    .home, .sessao-conhecimentos, .sessao-projetos {
-        float: none;
-        text-align: center;
-        width: 100%;
-    }
-
-    .home, .sessao-conhecimentos, .sessao-projetos{
-        display: none;
+@media (max-width: 768px) {
+    html {
+        font-size: 40%
     }
 }
